@@ -12,7 +12,7 @@ environment {
     stages {
         stage('clone') {
             steps {
-                git 'https://github.com/viswkum/hellow-wrld.git'
+                git 'https://github.com/Py-priyanka/hello-world.git'
             }
         }
         stage('build') {
